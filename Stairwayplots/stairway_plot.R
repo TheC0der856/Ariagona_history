@@ -88,6 +88,6 @@ Stairwayplot <- (
   )
 
 # save as pdf
-pdf("Fig2.pdf", width = 19, height = 13)
-print(Stairwayplot) # Print the combined plot to the PDF
+cairo_pdf("Fig2.pdf", width = 19, height = 13)
+print(Stairwayplot)
 dev.off()
