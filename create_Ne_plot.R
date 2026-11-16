@@ -75,8 +75,7 @@ ggplot(df_plot, aes(x = Population, y = Ne)) +
   theme_classic(base_size = 15) +
   theme (
     legend.position = "none", 
-    axis.title = element_text(size = 20),
-    axis.text = element_text(size = 16)
+    axis.title = element_text(size = 30),
+    axis.text = element_text(size = 26)
   )
-
 
